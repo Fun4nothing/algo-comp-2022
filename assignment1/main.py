@@ -36,7 +36,7 @@ def compute_score(user1, user2):
     This is the most important part of defining total score
     """
     # Basic comparing function to check if responses to questions are the same
-    for i in range():
+    for i in range(20):
         if user1.responses[i] == user2.responses[i]:
             total_score += 1
 
